@@ -13,7 +13,6 @@ export default function Home() {
     <div>
       <Navbar />
       <Main/>
-      {/* <MainCentered /> */}
       <About />
       <Services />
       <Founder />
