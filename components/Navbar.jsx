@@ -35,9 +35,10 @@ const Navbar = () => {
           <Image
             src="/NavLogo.png"
             alt="Radiant Roots Vitality"
-            width={180}
-            height={52}
-            className="object-contain"
+            width={44}
+            height={44}
+            className="object-contain border-none outline-none"
+            style={{ display: "block" }}
             priority
           />
         </Link>
