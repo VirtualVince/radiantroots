@@ -25,7 +25,7 @@ export const footerLinks = [
         title: "Facebook",
         url: "https://www.facebook.com/radiantrootsvitality/",
       },
-      { title: "Instagram", url: "" },
+      { title: "Instagram", url: "https://www.instagram.com/radiantrootsvitality/" },
     ],
   },
 ];
