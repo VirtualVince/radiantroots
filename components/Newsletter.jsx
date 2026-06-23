@@ -58,8 +58,7 @@ const Newsletter = () => {
           className="text-[#6b6b6b] text-base max-w-xl mb-10"
           style={{ fontFamily: "var(--font-dm-sans)" }}
         >
-          Seasonal health tips, holistic living guidance, and updates from Andrea
-          delivered gently, never spammy.
+          Seasonal health tips, holistic living guidance, and updates from Andrea delivered gently, never spammy.
         </p>
 
         {status === "success" ? (
