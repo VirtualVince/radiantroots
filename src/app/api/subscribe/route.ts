@@ -16,16 +16,19 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Server configuration error." }, { status: 500 });
     }
 
-    const url = `https://emailoctopus.com/api/1.6/lists/${listId}/contacts`;
+    // EmailOctopus API v2 (v1.6 is deprecated).
+    const url = `https://api.emailoctopus.com/lists/${listId}/contacts`;
     const res = await fetch(url, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${apiKey}`,
+      },
       body: JSON.stringify({
-        api_key: apiKey,
         email_address: email,
         fields: {},
         tags: ["radiantroots-newsletter"],
-        status: "SUBSCRIBED",
+        status: "subscribed",
       }),
     });
 
@@ -37,9 +40,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true });
     }
 
-    // Already subscribed — treat as success
+    // Already a contact — treat as success (409 Conflict in v2).
     const code = (data?.error as Record<string, unknown>)?.code;
-    if (code === "MEMBER_EXISTS_WITH_EMAIL_ADDRESS") {
+    if (res.status === 409 || code === "CONFLICT") {
       return NextResponse.json({ success: true, alreadySubscribed: true });
     }
 

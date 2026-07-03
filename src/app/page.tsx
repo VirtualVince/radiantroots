@@ -17,8 +17,8 @@ export default function Home() {
       <About />
       <Services />
       <Founder />
-      <Newsletter />
       <Contact />
+      <Newsletter />
       <Footer />
     </div>
   );

@@ -35,27 +35,26 @@ const Newsletter = () => {
   };
 
   return (
-    <section id="newsletter" className="w-full bg-white py-24 px-6 border-t border-[#e8e4db]">
+    <section id="newsletter" className="w-full bg-[#f9f7f2] py-14 px-6 border-t border-[#e8e4db]">
       <div className="max-w-[1240px] mx-auto flex flex-col items-center text-center">
 
         {/* Section label */}
         <p
-          className="text-xs uppercase tracking-[0.3em] text-[#FB7250] mb-4"
+          className="text-xs uppercase tracking-[0.3em] text-[#FB7250] mb-3"
           style={{ fontFamily: "var(--font-dm-sans)" }}
         >
           Stay Connected
         </p>
 
         <h2
-          className="text-[#2d2d2d] mb-4"
+          className="text-[#2d2d2d] text-2xl mb-3"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
           Wellness Wisdom in Your Inbox
         </h2>
-        <div className="w-16 h-[2px] bg-[#b8a94a] mb-6" />
 
         <p
-          className="text-[#6b6b6b] text-base max-w-xl mb-10"
+          className="text-[#6b6b6b] text-sm max-w-xl mb-7"
           style={{ fontFamily: "var(--font-dm-sans)" }}
         >
           Seasonal health tips, holistic living guidance, and updates from Andrea delivered gently, never spammy.

@@ -52,8 +52,8 @@ const Founder = () => {
             </div>
           </div>
 
-          {/* Bio + credentials */}
-          <div className="md:col-span-2 flex flex-col gap-6">
+          {/* Bio */}
+          <div className="md:col-span-2">
 
             <div>
               <h3
@@ -103,9 +103,11 @@ const Founder = () => {
                 </em>
               </p>
             </div>
+          </div>
+        </div>
 
-            {/* Credentials & Education */}
-            <div className="grid sm:grid-cols-2 gap-6 mt-2">
+        {/* Credentials & Education — full-width row below */}
+        <div className="grid sm:grid-cols-2 gap-6 mt-14">
               <div className="rounded-2xl bg-[#f9f7f2] border border-[#e8e4db] p-6">
                 <p
                   className="text-xs uppercase tracking-[0.2em] text-[#b8a94a] mb-4"
@@ -149,18 +151,16 @@ const Founder = () => {
               </div>
             </div>
 
-            <a
-              href="https://calendly.com/andrea-radiantrootsvitality/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-2 inline-block self-start px-8 py-3.5 rounded-full bg-[#FB7250] text-white text-xs uppercase tracking-[0.2em] hover:bg-[#e85f3e] transition-all duration-300 shadow-none"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              Book a Session with Andrea
-            </a>
+        <a
+          href="https://calendly.com/andrea-radiantrootsvitality/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-12 inline-block px-8 py-3.5 rounded-full bg-[#FB7250] text-white text-xs uppercase tracking-[0.2em] hover:bg-[#e85f3e] transition-all duration-300 shadow-none"
+          style={{ fontFamily: "var(--font-dm-sans)" }}
+        >
+          Book a Session with Andrea
+        </a>
 
-          </div>
-        </div>
       </div>
     </section>
   );
