@@ -8,7 +8,7 @@ const steps = [
     icon: "❧",
     title: "Browse the Dispensary",
     description:
-      "Explore Andrea's curated catalog of professional-grade supplements, hand-selected to support your wellness journey.",
+      "Explore Andrea's curated catalog of professional grade supplements, hand-selected to support your wellness journey.",
   },
   {
     icon: "◍",
@@ -25,7 +25,7 @@ const steps = [
 ];
 
 const benefits = [
-  "Practitioner-selected, professional-grade brands",
+  "Practitioner-selected, professional grade brands",
   "Third-party tested for purity and potency",
   "Personalized to your health goals",
   "Secure ordering & auto-refills through Fullscript",
@@ -47,7 +47,7 @@ const Supplements = () => {
             className="text-[#2d2d2d] leading-tight mb-6 max-w-2xl"
             style={{ fontFamily: "var(--font-cormorant)" }}
           >
-            Professional-Grade{" "}
+            Professional Grade{" "}
             <em className="text-[#FB7250] not-italic">Supplements</em>, Curated
             for You
           </h1>
@@ -55,7 +55,7 @@ const Supplements = () => {
             className="text-[#6b6b6b] text-lg mb-10 max-w-xl"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
-            Shop the same high-quality supplements Andrea trusts in her practice,
+            Shop the same high quality supplements Andrea trusts in her practice,
             selected for purity, potency, and your unique wellness goals.
           </p>
           <a
