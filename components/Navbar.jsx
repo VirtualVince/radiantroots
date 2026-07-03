@@ -9,6 +9,7 @@ const links = [
   { label: "Services",     href: "/#services" },
   { label: "Meet Andrea",  href: "/#founder" },
   { label: "Locations",    href: "/#contact" },
+  { label: "Supplements",  href: "/supplements" },
 ];
 
 const Navbar = () => {

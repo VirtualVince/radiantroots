@@ -12,7 +12,11 @@ export async function POST(req: NextRequest) {
     const listId = process.env.EMAILOCTOPUS_LIST_ID?.trim().split("?")[0];
 
     if (!apiKey || !listId) {
-      console.error("Missing EMAILOCTOPUS_API_KEY or EMAILOCTOPUS_LIST_ID");
+      const missing = [
+        !apiKey && "EMAILOCTOPUS_API_KEY",
+        !listId && "EMAILOCTOPUS_LIST_ID",
+      ].filter(Boolean);
+      console.error("Missing env var(s):", missing.join(", "));
       return NextResponse.json({ error: "Server configuration error." }, { status: 500 });
     }
 

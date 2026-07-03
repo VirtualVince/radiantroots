@@ -15,6 +15,7 @@ export const footerLinks = [
       { title: "About",                  url: "/#about" },
       { title: "Meet Andrea",            url: "/#founder" },
       { title: "Locations",              url: "/#contact" },
+      { title: "Supplements",            url: "/supplements" },
       { title: "Book a Consultation",    url: "https://calendly.com/andrea-radiantrootsvitality/30min" },
       { title: "Privacy Policy",         url: "/privacy-policy" },
     ],
