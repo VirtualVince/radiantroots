@@ -11,7 +11,7 @@ const services = [
     title: "Herbal Medicine",
     icon: "❧",
     description:
-      "Chinese Herbal Medicine is a cornerstone of Traditional Chinese Medicine — a holistic system practiced for thousands of years to restore balance and harmony. Carefully selected herbal formulas support your body's natural healing processes, strengthen vitality, calm the mind, and address both root cause and symptoms.",
+      "Chinese Herbal Medicine is a cornerstone of Traditional Chinese Medicine, a holistic system practiced for thousands of years to restore balance and harmony. Carefully selected herbal formulas support your body's natural healing processes, strengthen vitality, calm the mind, and address both root cause and symptoms.",
   },
   {
     title: "Holistic Nutrition",
@@ -29,7 +29,7 @@ const services = [
     title: "Reiki",
     icon: "✦",
     description:
-      "Reiki is a gentle yet powerful energy practice supporting healing, balance, and alignment on all levels — physical, emotional, mental, and spiritual. Each session offers a sacred space for stillness and renewal, reducing stress, easing emotional tension, and deepening your connection to inner peace.",
+      "Reiki is a gentle yet powerful energy practice supporting healing, balance, and alignment on all levels: physical, emotional, mental, and spiritual. Each session offers a sacred space for stillness and renewal, reducing stress, easing emotional tension, and deepening your connection to inner peace.",
   },
 ];
 

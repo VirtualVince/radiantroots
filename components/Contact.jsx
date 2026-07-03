@@ -56,7 +56,7 @@ const Contact = () => {
           style={{ fontFamily: "var(--font-dm-sans)" }}
         >
           Andrea sees clients at two South Florida locations. Hours are flexible
-          and by appointment — reach out and we&apos;ll find a time that works
+          and by appointment. Reach out and we&apos;ll find a time that works
           for you.
         </p>
 

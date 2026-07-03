@@ -13,7 +13,7 @@ const sections = [
   {
     heading: "Information We Collect",
     body: [
-      "We collect information you voluntarily provide to us — for example, when you subscribe to our newsletter, book a consultation, or contact us. This may include your name, email address, phone number, and any details you choose to share.",
+      "We collect information you voluntarily provide to us, for example, when you subscribe to our newsletter, book a consultation, or contact us. This may include your name, email address, phone number, and any details you choose to share.",
       "We also automatically collect limited technical information when you visit our site, such as your browser type, device, and pages visited, through cookies and similar technologies.",
     ],
   },

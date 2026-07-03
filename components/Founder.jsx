@@ -66,7 +66,7 @@ const Founder = () => {
                 className="text-xs uppercase tracking-[0.2em] text-[#FB7250] mb-5"
                 style={{ fontFamily: "var(--font-dm-sans)" }}
               >
-                AP, L.Ac, CNP, CHC — Founder of Radiant Roots Vitality
+                AP, L.Ac, CNP, CHC, Founder of Radiant Roots Vitality
               </p>
 
               <p
@@ -98,7 +98,7 @@ const Founder = () => {
                 clinical training and her own 15-year personal healing journey.
                 At the heart of her philosophy is a simple truth:{" "}
                 <em className="text-[#2d2d2d]">
-                  when we tend to our roots — mind, body, and spirit — our whole
+                  when we tend to our roots, mind, body, and spirit, our whole
                   being radiates health.
                 </em>
               </p>

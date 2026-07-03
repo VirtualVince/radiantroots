@@ -46,7 +46,7 @@ const About = () => {
             >
               Whether you are navigating a chronic health challenge, seeking
               hormonal balance, or simply ready to feel more at home in your
-              body — our heart-centered approach meets you exactly where you are.
+              body, our heart-centered approach meets you exactly where you are.
             </p>
 
             <a
@@ -106,7 +106,7 @@ const About = () => {
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
                     Learn to heal yourself in a supportive, guided, online group
-                    environment — from wherever you are in the world.
+                    environment, from wherever you are in the world.
                   </p>
                 </div>
               </div>

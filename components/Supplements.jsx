@@ -20,7 +20,7 @@ const steps = [
     icon: "✦",
     title: "Delivered to Your Door",
     description:
-      "Fullscript handles secure checkout and ships directly to you — no need to remember to reorder.",
+      "Fullscript handles secure checkout and ships directly to you. No need to remember to reorder.",
   },
 ];
 
@@ -55,7 +55,7 @@ const Supplements = () => {
             className="text-[#6b6b6b] text-lg mb-10 max-w-xl"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
-            Shop the same high-quality supplements Andrea trusts in her practice —
+            Shop the same high-quality supplements Andrea trusts in her practice,
             selected for purity, potency, and your unique wellness goals.
           </p>
           <a
@@ -144,7 +144,7 @@ const Supplements = () => {
               Practitioner-grade supplements are held to higher standards for
               sourcing, testing, and formulation than most retail brands. Through
               Fullscript, Andrea can recommend trusted products tailored to your
-              body — so what you take actually supports your healing.
+              body, so what you take actually supports your healing.
             </p>
           </div>
 
