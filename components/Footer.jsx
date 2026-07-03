@@ -21,7 +21,8 @@ const Footer = () => {
             className="object-contain"
           />
           <p className="text-sm text-[#6b6b6b] leading-relaxed">
-            Personalized acupuncture &amp; holistic wellness in Boca Raton, FL.
+            Personalized acupuncture &amp; holistic wellness in Boca Raton &amp;
+            Palm Beach Gardens, FL.
           </p>
           <a
             href="https://calendly.com/andrea-radiantrootsvitality/30min"
