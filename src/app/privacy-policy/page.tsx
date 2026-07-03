@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "How Radiant Roots Vitality collects, uses, and protects your personal information.",
 };
 
-const CONTACT_EMAIL = "BocaRatonAcupuncture@gmail.com";
+const CONTACT_EMAIL = "andrea@radiantrootsvitality.com";
 
 const sections = [
   {

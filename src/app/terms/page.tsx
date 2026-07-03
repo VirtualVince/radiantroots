@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "The terms and conditions governing your use of the Radiant Roots Vitality website.",
 };
 
-const CONTACT_EMAIL = "BocaRatonAcupuncture@gmail.com";
+const CONTACT_EMAIL = "andrea@radiantrootsvitality.com";
 
 const sections = [
   {
