@@ -66,7 +66,7 @@ const Services = () => {
         >
           What We Offer
         </h2>
-        <div className="w-16 h-[2px] bg-[#b8a94a] mb-14" />
+        <div className="w-16 h-[2px] bg-[#96BB60] mb-14" />
 
         {/* Service cards grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">

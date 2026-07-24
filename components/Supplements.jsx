@@ -85,7 +85,7 @@ const Supplements = () => {
           >
             Three Simple Steps
           </h2>
-          <div className="w-16 h-[2px] bg-[#b8a94a] mb-14" />
+          <div className="w-16 h-[2px] bg-[#96BB60] mb-14" />
 
           <div className="grid sm:grid-cols-3 gap-6">
             {steps.map((step, i) => (
@@ -96,7 +96,7 @@ const Supplements = () => {
                 <div className="flex items-center gap-3">
                   <span className="text-2xl text-[#FB7250]">{step.icon}</span>
                   <span
-                    className="text-xs uppercase tracking-[0.2em] text-[#b8a94a]"
+                    className="text-xs uppercase tracking-[0.2em] text-[#96BB60]"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
                     Step {i + 1}
@@ -136,7 +136,7 @@ const Supplements = () => {
             >
               Not All Supplements Are Equal
             </h2>
-            <div className="w-16 h-[2px] bg-[#b8a94a] mb-8" />
+            <div className="w-16 h-[2px] bg-[#96BB60] mb-8" />
             <p
               className="text-[#6b6b6b] text-base leading-relaxed"
               style={{ fontFamily: "var(--font-dm-sans)" }}

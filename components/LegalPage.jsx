@@ -25,7 +25,7 @@ const LegalPage = ({ title, updated, intro, sections }) => (
         >
           {title}
         </h1>
-        <div className="w-16 h-[2px] bg-[#b8a94a] mb-6" />
+        <div className="w-16 h-[2px] bg-[#96BB60] mb-6" />
 
         <p
           className="text-xs text-[#9b9b9b] mb-10"

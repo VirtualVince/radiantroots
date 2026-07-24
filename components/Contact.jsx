@@ -49,7 +49,7 @@ const Contact = () => {
         >
           Two Locations to Serve You
         </h2>
-        <div className="w-16 h-[2px] bg-[#b8a94a] mb-6" />
+        <div className="w-16 h-[2px] bg-[#96BB60] mb-6" />
 
         <p
           className="text-[#6b6b6b] text-base max-w-xl mb-12"
@@ -119,7 +119,7 @@ const Contact = () => {
                   className="flex flex-col gap-1"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  <p className="text-xs uppercase tracking-[0.15em] text-[#b8a94a]">
+                  <p className="text-xs uppercase tracking-[0.15em] text-[#96BB60]">
                     Hours
                   </p>
                   {loc.hours.map((h) => (
@@ -162,7 +162,7 @@ const Contact = () => {
         >
           Ready to Begin Your Healing Journey?
         </h2>
-        <div className="w-16 h-[2px] bg-[#b8a94a] mb-6" />
+        <div className="w-16 h-[2px] bg-[#96BB60] mb-6" />
 
         <p
           className="text-[#6b6b6b] text-base max-w-xl mb-14"
