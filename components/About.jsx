@@ -23,7 +23,7 @@ const About = () => {
         </h2>
 
         {/* Gold rule */}
-        <div className="w-16 h-[2px] bg-[#96BB60] mb-12" />
+        <div className="w-16 h-[2px] bg-[#b8a94a] mb-12" />
 
         {/* Two-column layout */}
         <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -89,10 +89,10 @@ const About = () => {
             </div>
 
             {/* Online card */}
-            <div className="rounded-2xl border border-[#e8e4db] bg-[#f9f7f2] p-7 hover:border-[#96BB60] transition-colors duration-300 group">
+            <div className="rounded-2xl border border-[#e8e4db] bg-[#f9f7f2] p-7 hover:border-[#b8a94a] transition-colors duration-300 group">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-[#f5f2e8] flex items-center justify-center shrink-0 mt-0.5">
-                  <span className="text-[#96BB60] text-lg">◈</span>
+                  <span className="text-[#b8a94a] text-lg">◈</span>
                 </div>
                 <div>
                   <h3

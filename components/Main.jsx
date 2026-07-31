@@ -28,14 +28,14 @@ const Main = () => {
 
         {/* Decorative divider */}
         <div className="flex items-center gap-4 mb-10 w-full max-w-xs">
-          <div className="flex-1 h-px bg-[#96BB60]" />
+          <div className="flex-1 h-px bg-[#b8a94a]" />
           <span
-            className="text-[#96BB60] text-[10px] uppercase tracking-[0.3em]"
+            className="text-[#b8a94a] text-[10px] uppercase tracking-[0.3em]"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
             Boca Raton, FL
           </span>
-          <div className="flex-1 h-px bg-[#96BB60]" />
+          <div className="flex-1 h-px bg-[#b8a94a]" />
         </div>
 
         <h1

@@ -35,7 +35,7 @@ const Founder = () => {
         >
           The Founder
         </h2>
-        <div className="w-16 h-[2px] bg-[#96BB60] mb-14" />
+        <div className="w-16 h-[2px] bg-[#b8a94a] mb-14" />
 
         <div className="grid md:grid-cols-3 gap-12 items-start">
 
@@ -110,7 +110,7 @@ const Founder = () => {
         <div className="grid sm:grid-cols-2 gap-6 mt-14">
               <div className="rounded-2xl bg-[#f9f7f2] border border-[#e8e4db] p-6">
                 <p
-                  className="text-xs uppercase tracking-[0.2em] text-[#96BB60] mb-4"
+                  className="text-xs uppercase tracking-[0.2em] text-[#b8a94a] mb-4"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
                   Licenses &amp; Certifications
@@ -131,7 +131,7 @@ const Founder = () => {
 
               <div className="rounded-2xl bg-[#f9f7f2] border border-[#e8e4db] p-6">
                 <p
-                  className="text-xs uppercase tracking-[0.2em] text-[#96BB60] mb-4"
+                  className="text-xs uppercase tracking-[0.2em] text-[#b8a94a] mb-4"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
                   Formal Education
@@ -143,7 +143,7 @@ const Founder = () => {
                       className="flex items-start gap-2 text-sm text-[#6b6b6b]"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
                     >
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#96BB60] mt-1.5 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#b8a94a] mt-1.5 shrink-0" />
                       {e}
                     </li>
                   ))}
