@@ -11,6 +11,14 @@ const locations = [
     hours: ["Tue & Thu: 3–7 PM", "Sat: 9 AM–12 PM"],
   },
   {
+    name: "Downtown Boca Raton",
+    address: "301 Crawford Blvd Ste 103, Boca Raton, FL 33432",
+    phone: null,
+    email: "Andrea@radiantrootsvitality.com",
+    mapQuery: "301 Crawford Blvd Ste 103, Boca Raton, FL 33432",
+    hours: ["Fri: 1–6 PM"],
+  },
+  {
     name: "Palm Beach Gardens",
     address: "3335 Burns Road, Second Floor, Palm Beach Gardens, FL 33410",
     phone: "561-529-5295",
@@ -47,7 +55,7 @@ const Contact = () => {
           className="text-[#2d2d2d] mb-4"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
-          Two Locations to Serve You
+          Three Locations to Serve You
         </h2>
         <div className="w-16 h-[2px] bg-[#b8a94a] mb-6" />
 
@@ -55,13 +63,13 @@ const Contact = () => {
           className="text-[#6b6b6b] text-base max-w-xl mb-12"
           style={{ fontFamily: "var(--font-dm-sans)" }}
         >
-          Andrea sees clients at two South Florida locations. Hours are flexible
+          Andrea sees clients at three South Florida locations. Hours are flexible
           and by appointment. Reach out and we&apos;ll find a time that works
           for you.
         </p>
 
         {/* Location cards */}
-        <div className="grid md:grid-cols-2 gap-8 mb-24">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {locations.map((loc) => (
             <div
               key={loc.name}
@@ -99,12 +107,14 @@ const Contact = () => {
                   className="flex flex-col gap-1.5 text-sm"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  <a
-                    href={`tel:${loc.phone.replace(/[^0-9]/g, "")}`}
-                    className="text-[#6b6b6b] hover:text-[#FB7250] transition-colors duration-200"
-                  >
-                    {loc.phone}
-                  </a>
+                  {loc.phone && (
+                    <a
+                      href={`tel:${loc.phone.replace(/[^0-9]/g, "")}`}
+                      className="text-[#6b6b6b] hover:text-[#FB7250] transition-colors duration-200"
+                    >
+                      {loc.phone}
+                    </a>
+                  )}
                   {loc.email && (
                     <a
                       href={`mailto:${loc.email}`}
